@@ -74,7 +74,7 @@ class CalculoIMC {
 	}
 
 	public static double getUsuarioIMC() {
-		Scanner scanner = new Scanner(System.in); // fora do loop
+		Scanner scanner = new Scanner(System.in); 
 		while (true) {
 			try {
 				System.out.print("Insira o seu peso em quilogramas: ");
